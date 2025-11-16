@@ -1,10 +1,9 @@
-import 'package:classico/backends/offline_data_manage/database/user_onboarding/loginpage.dart';
 import 'package:flutter/material.dart';
+import 'Audio player/audio player.dart';
 
-import 'map location/maps.dart';
 
 void main() {
-  runApp(Myapp());
+  runApp(const Myapp());
 }
 
 class Myapp extends StatelessWidget {
@@ -14,7 +13,7 @@ class Myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GoogleMaps(),
+      home: AudioPlayerScreen(),
     );
   }
 }
